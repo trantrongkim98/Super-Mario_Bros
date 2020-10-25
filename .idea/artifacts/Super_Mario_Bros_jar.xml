@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Super-Mario_Bros:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Super_Mario_Bros_jar</output-path>
+    <root id="archive" name="Super-Mario_Bros.jar">
+      <element id="module-output" name="Super-Mario_Bros" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsfml.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
