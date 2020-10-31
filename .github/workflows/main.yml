@@ -1,0 +1,12 @@
+name: Run test and build App
+on: push
+jobs:
+        test:
+                runs-on: ubuntu-latest
+                steps:
+                - name: test
+                  uses: actions/setup-java@v1
+                  with:
+                          java-version: '1.8.0_20'   
+                          java-package: jdk
+                          architecture: x64
