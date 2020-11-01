@@ -7,12 +7,15 @@
     <version>1.0.7</version>
     <name>com.supermariobros</name>
     <url>http://maven.apache.org</url>
+
     <dependencies>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
+
         </dependency>
     </dependencies>
     <build>
@@ -24,6 +27,11 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.supermariobros.SuperMarioBrosApp</mainClass>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>
